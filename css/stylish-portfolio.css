@@ -97,7 +97,7 @@ h6 {
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%),
-    url("../img/GRAFFITI\ PICTURES/BACKPACKER PANDA MANALI/19113956_1456995367656265_7156869322424688047_n.jpg");
+    url("../img/home/BACKPACKER PANDA MANALI/19113956_1456995367656265_7156869322424688047_n.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -131,15 +131,15 @@ h6 {
 }
 
 .carousel-item:nth-child(1) {
-  background-image: url("../img//GRAFFITI\ PICTURES/BACKPACKER\ PANDA\ MANALI/19113956_1456995367656265_7156869322424688047_n.jpg");
+  background-image: url("../img/home/BACKPACKER\ PANDA\ MANALI/19113956_1456995367656265_7156869322424688047_n.jpg");
 }
 
 .carousel-item:nth-child(2) {
-  background-image: url("../img/GRAFFITI\ PICTURES/MOOD INDIGO/15492552_1289482091074261_8874483071242909101_n.jpg");
+  background-image: url("../img/home/MOOD INDIGO/15492552_1289482091074261_8874483071242909101_n.jpg");
 }
 
 .carousel-item:nth-child(3) {
-  background-image: url("../img/GRAFFITI PICTURES/REEBOK\ AZTREK/IMG_2508.jpg");
+  background-image: url("../img/home/REEBOK\ AZTREK/IMG_2508.jpg");
 }
 
 @media (min-width: 992px) {
@@ -294,7 +294,7 @@ h6 {
   background: no-repeat center center scroll;
   background-size: cover;
   background-attachment: fixed;
-  background-image: url("../img/GRAFFITI\ PICTURES/ZAKE\ X\ NEW\ CRU/IMG_2050.jpg");
+  background-image: url("../img/home/ZAKE\ X\ NEW\ CRU/IMG_2050.jpg");
 }
 
 .demo a {
