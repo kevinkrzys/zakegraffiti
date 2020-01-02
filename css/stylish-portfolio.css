@@ -757,6 +757,10 @@ a:active {
   .carousel-item {
     background-size: 95vw auto;
   }
+
+  .carousel-indicators li {
+    background-color: #212121;
+  }
 }
 
 #about {
