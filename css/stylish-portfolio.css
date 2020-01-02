@@ -755,6 +755,7 @@ a:active {
 @media (max-width: 425px) {
   .carousel-item {
     background-size: 95vw auto;
+    height: 75vh;
   }
 
   .carousel-indicators li {
