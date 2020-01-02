@@ -752,3 +752,13 @@ a:active {
   color: #212121;
   text-decoration: none;
 }
+
+@media (max-width: 425px) {
+  .carousel-item {
+    background-size: 95vw auto;
+  }
+}
+
+#about {
+  background-color: #212121;
+}
