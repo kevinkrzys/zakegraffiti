@@ -853,10 +853,12 @@ a:active {
   #art-gallery {
     background: url("../img/home/HORNBILL\ IN\ THE\ STREET/48171851_2061006293921833_4593048991393906688_n.jpg");
     background-size: contain;
+    background-repeat: no-repeat;
   }
 
   #press {
     background: url("../img/home/BLACKLISTED\ the\ lounge/IMG_3955.jpg");
     background-size: contain;
+    background-repeat: no-repeat;
   }
 }
