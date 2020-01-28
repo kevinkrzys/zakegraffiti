@@ -32,6 +32,10 @@
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet" />
+
+    <!-- AOS animate -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
 
   <body id="page-top">
@@ -163,14 +167,22 @@
           <div class="col-sm-12">
             <div class="box-shadow-full">
               <div class="row">
-                <div class="col-md-6 text-center">
+                <div
+                  class="col-md-6 text-center"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
                   <img
                     class="img-fluid rounded img-thumbnail"
                     src="./img/home/GRAFF ARTIST OF THE YEAR/69856400_683081075506550_2107034212729977652_n.jpg"
                     alt=""
                   />
                 </div>
-                <div class="align-self-center col-md-6 justify-content-center">
+                <div
+                  class="align-self-center col-md-6 justify-content-center"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
                   <div class="about-me p-lg-3 pt-4 rounded">
                     <!-- <div class="title-box-2">
                       <h5 class="title-left">
@@ -199,7 +211,7 @@
           ART GALLERY
         </span>
       </div>
-      <div class="see-more">
+      <div class="see-more" data-aos="fade-up" data-aos-duration="1200">
         <!-- <button class="btn"></button> -->
         <a href="./art.html" class="btn">SEE MORE</a>
       </div>
@@ -208,7 +220,7 @@
     <!-- About -->
     <section class="content-section" id="about">
       <div class="container text-center">
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-duration="1200">
           <div class="col-lg-10 mx-auto">
             <!-- <h2>
               Stylish Portfolio is the perfect theme for your next project!
@@ -239,7 +251,7 @@
           PRESS CONTENT
         </span>
       </div>
-      <div class="see-more">
+      <div class="see-more" data-aos="fade-up" data-aos-duration="1200">
         <!-- <button class="btn"></button> -->
         <a href="./press.html" class="btn">SEE MORE</a>
       </div>
@@ -251,14 +263,22 @@
           <div class="col-sm-12">
             <div class="box-shadow-full">
               <div class="row">
-                <!-- <div class="col-md-6 text-center d-none d-sm-block">
+                <div
+                  class="col-md-6 text-center d-lg-none"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
                   <img
                     class="img-fluid rounded img-thumbnail"
                     src="./img/home/SAMMY SOSA restaurant POTRAIT/42600334_1959647500724380_4105596960944160768_n.jpg"
                     alt=""
                   />
-                </div> -->
-                <div class="align-self-center col-md-6 justify-content-center">
+                </div>
+                <div
+                  class="align-self-center col-md-6 justify-content-center"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
                   <div class="about-me ml-lg-auto p-lg-3 pt-4 rounded">
                     <!-- <div class="title-box-2">
                       <h5 class="title-left">
@@ -277,7 +297,11 @@
                     </p>
                   </div>
                 </div>
-                <div class="col-md-6 text-center d-none d-sm-block">
+                <div
+                  class="col-md-6 text-center d-none d-lg-block"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
                   <img
                     class="img-fluid rounded img-thumbnail"
                     src="./img/home/SAMMY SOSA restaurant POTRAIT/42600334_1959647500724380_4105596960944160768_n.jpg"
@@ -302,7 +326,11 @@
           <h2 class="mb-5">What We Offer</h2> -->
         </div>
         <div class="row p-4 rounded">
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <div
+            class="col-lg-3 col-md-6 mb-5 mb-lg-0"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             <!-- <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-screen-smartphone"></i>
             </span>
@@ -323,7 +351,11 @@
               <i class="fa fa-quote-right"></i>
             </p>
           </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <div
+            class="col-lg-3 col-md-6 mb-5 mb-md-0"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             <!-- <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-like"></i>
             </span>
@@ -347,7 +379,11 @@
               <i class="fa fa-quote-right"></i>
             </p>
           </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <div
+            class="col-lg-3 col-md-6 mb-5 mb-lg-0"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             <!-- <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-pencil"></i>
             </span>
@@ -369,7 +405,11 @@
               <i class="fa fa-quote-right"></i>
             </p>
           </div>
-          <div class="col-lg-3 col-md-6">
+          <div
+            class="col-lg-3 col-md-6"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             <!-- <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-mustache"></i>
             </span>
@@ -570,5 +610,9 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.min.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

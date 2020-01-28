@@ -840,11 +840,11 @@ a:active {
     background: black;
   }
 
-  .about-me:first-child {
+  #aboutPage1 .about-me {
     box-shadow: 2.5rem 2.5rem #ffc005;
   }
 
-  .about-me:nth-child(2) {
+  #aboutPage2 .about-me {
     box-shadow: -2.5rem 2.5rem #ffc005;
   }
 }
