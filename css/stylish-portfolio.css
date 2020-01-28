@@ -604,14 +604,16 @@ a:active {
   bottom: -12px;
 }
 
-#aboutPage {
+#aboutPage1,
+#aboutPage2 {
   background-color: #212121;
 }
 
-#aboutPage img.img-thumbnail {
+#aboutPage1 img.img-thumbnail,
+#aboutPage2 img.img-thumbnail {
   background-color: #ffc005;
   border: none;
-  max-height: 75vh;
+  max-width: 75%;
 }
 
 /* Portfolio Section
@@ -660,6 +662,7 @@ a:active {
   margin-bottom: 15px;
   transition: all 350ms ease;
   transform: scale(1);
+  padding-right: 0;
 }
 
 #portfolio .portfolio-item a {
@@ -739,6 +742,10 @@ a:active {
   font-size: 1.5rem;
 }
 
+#contact .fa-phone {
+  transform: rotate(90deg);
+}
+
 #contact .fa-phone,
 #contact .fa-envelope {
   font-size: 2.5rem;
@@ -765,4 +772,91 @@ a:active {
 
 #about {
   background-color: #212121;
+}
+
+.fixed-top {
+  top: 15px;
+  left: 15px;
+}
+
+.fixed-top a {
+  display: block;
+  height: 2rem;
+  width: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  background-color: #000000bf;
+  border-radius: 50%;
+  color: white;
+  margin-right: 0.2rem;
+}
+
+#art-gallery {
+  color: #fff;
+  background: no-repeat center center scroll;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("../img/home/ZAKE\ X\ AKILL\ COLLAB/IMG_0309.jpg");
+}
+
+#press {
+  color: #fff;
+  background: no-repeat center center scroll;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("../img/home/HAUL\ APPAREL\ NOTHING\ TRADITIONAL/12375069_1019451571410649_5015801433024686022_o.jpg");
+}
+
+#press span,
+#art-gallery span {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0.5rem;
+}
+
+@media (max-width: 576px) {
+  #press span,
+  #art-gallery span {
+    background: rgba(0, 0, 0, 0.6);
+  }
+}
+
+.see-more > .btn {
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.about-me {
+  text-align: justify;
+}
+
+@media (min-width: 992px) {
+  .about-me {
+    width: 75%;
+    background: black;
+  }
+
+  .about-me:first-child {
+    box-shadow: 2.5rem 2.5rem #ffc005;
+  }
+
+  .about-me:nth-child(2) {
+    box-shadow: -2.5rem 2.5rem #ffc005;
+  }
+}
+
+@media (max-width: 576px) {
+  #art-gallery {
+    background: url("../img/home/HORNBILL\ IN\ THE\ STREET/48171851_2061006293921833_4593048991393906688_n.jpg");
+    background-size: contain;
+  }
+
+  #press {
+    background: url("../img/home/BLACKLISTED\ the\ lounge/IMG_3955.jpg");
+    background-size: contain;
+  }
 }
