@@ -32,10 +32,40 @@
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet" />
+
+    <!-- AOS animate -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
 
   <body id="page-top">
     <!-- Navigation -->
+    <span class="fixed-top d-inline-flex">
+      <a
+        href="https://www.facebook.com/zakegraffit"
+        target="_blank"
+        data-aos="fade-down"
+      >
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a
+        href="https://www.instagram.com/zake_india/"
+        target="_blank"
+        data-aos="fade-down"
+        data-aos-delay="100"
+      >
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a
+        href="https://www.youtube.com/channel/UCjUhvPxYafI2hcvcg6DkXvw"
+        target="_blank"
+        data-aos="fade-down"
+        data-aos-delay="200"
+      >
+        <i class="fab fa-youtube"></i>
+      </a>
+    </span>
+
     <a class="menu-toggle rounded" href="#">
       <i class="fas fa-bars"></i>
     </a>
@@ -46,9 +76,6 @@
         </li>
         <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="./index.html">Home</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="./about.html">About</a>
         </li>
         <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#page-top">Art</a>
@@ -384,15 +411,15 @@
     <footer id="contact" class="footer text-center">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
-            <div class="text-center mb-5">
+          <div class="col-lg-4 mb-5" data-aos="fade-up">
+            <div class="text-center">
               <i class="fas fa-phone"></i>
               <br />
-              <a href="tel:+919619331977">+91 96193 31977</a>
+              <a href="tel:+919619331977">Phone</a>
             </div>
           </div>
-          <div class="col-lg-4">
-            <ul class="list-inline mb-5">
+          <div class="col-lg-4 mb-5" data-aos="fade-up">
+            <ul class="list-inline mb-1">
               <li class="list-inline-item">
                 <a
                   class="social-link rounded-circle text-white mr-3"
@@ -421,12 +448,13 @@
                 </a>
               </li>
             </ul>
+            <p class="text-centre mb-0">Social Media</p>
           </div>
-          <div class="col-lg-4">
-            <div class="text-center mb-5">
+          <div class="col-lg-4 mb-5" data-aos="fade-up">
+            <div class="text-center">
               <i class="fas fa-envelope"></i>
               <br />
-              <a href="mailto:savi@fourbyfour.in">savi@fourbyfour.in</a>
+              <a href="mailto:savi@fourbyfour.in">Email</a>
             </div>
           </div>
         </div>
@@ -449,5 +477,9 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

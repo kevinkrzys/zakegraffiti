@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: "Source Sans Pro";
+  font-family: "Arial";
   scroll-behavior: smooth;
 }
 
@@ -179,7 +179,7 @@ h6 {
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
   text-decoration: none;
-  color: #424242;
+  color: #212121;
   padding: 15px;
 }
 
@@ -319,7 +319,7 @@ h6 {
 }
 #section10 a span {
   position: absolute;
-  top: 0;
+  top: 30%;
   left: 50%;
   width: 30px;
   height: 50px;
@@ -398,6 +398,8 @@ h6 {
 .press-item .caption .caption-content h2 {
   font-size: 0.8rem;
   text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 .press-item .caption .caption-content p {
@@ -762,7 +764,7 @@ a:active {
 @media (max-width: 425px) {
   .carousel-item {
     background-size: 95vw auto;
-    height: 75vh;
+    height: 60vh;
   }
 
   .carousel-indicators li {
@@ -777,6 +779,7 @@ a:active {
 .fixed-top {
   top: 15px;
   left: 15px;
+  width: 110px;
 }
 
 .fixed-top a {
@@ -859,4 +862,9 @@ a:active {
     background: url("../img/home/BLACKLISTED\ the\ lounge/IMG_3955.jpg");
     background-size: cover;
   }
+}
+
+@font-face {
+  font-family: "sunflower";
+  src: url("../fonts/Sekogure.ttf");
 }
